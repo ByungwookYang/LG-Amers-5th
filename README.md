@@ -10,7 +10,7 @@
 
 - **대회명 :** LG aimers 해커톤 5기
 - **주최기관 :** LG전자
-- **진행기간 :** 2024.08.01 - 2024.07.30 (온라인 해커톤), 2024.09.28 - 2024.09.29 (오프라인 해커톤) (증빙 자료)(https://drive.google.com/file/d/1DwP5RrFkj08uo15XFSiLvgPH5AGv61uZ/view?usp=sharing)
+- **진행기간 :** 2024.08.01 - 2024.07.30 (온라인 해커톤), 2024.09.28 - 2024.09.29 (오프라인 해커톤) [증빙 자료](https://drive.google.com/file/d/1DwP5RrFkj08uo15XFSiLvgPH5AGv61uZ/view?usp=sharing)
 - **수상 :** 온라인 해커톤 4th / 741teams, 오프라인 해커톤 9th / 32teams (상금 100만원)
 
 ---
