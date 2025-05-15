@@ -47,23 +47,20 @@
 ### 1️⃣ 데이터 전처리
 1. Raw 데이터 확인 과정에서 일부 열이 밀려 있는 문제가 발견되어, 정렬 오류를 수정하는 전처리를 우선적으로 수행
 
-2. 결측치 확인 및 제거를 통해 불완전한 데이터를 제거하고, EDA를 통해 주요 변수 간 분포와 상관관계를 분석한 뒤, **유의미한 파생 변수(Feature Engineering)**를 도출하였습니다.
+2. 결측치 확인 및 제거를 통해 불완전한 데이터를 제거하고, EDA를 통해 주요 변수 간 분포와 상관관계를 분석한 뒤, 유의미한 파생 변수(Feature Engineering)를 도출하였습니다.
 
+3. 
 ### 2️⃣ 모델 학습 및 튜닝
-ExtraTree, SVM, XGBoost, CatBoost 등 여러 머신러닝 모델을 실험적으로 적용하고,
-그 중 가장 우수한 성능을 보인 CatBoost를 중심으로 본격적인 모델링을 진행하였습니다.
+1. ExtraTree, SVM, XGBoost, CatBoost 등 여러 머신러닝 모델을 실험적으로 적용하고, 그 중 가장 우수한 성능을 보인 CatBoost를 중심으로 본격적인 모델링을 진행.
 
-CatBoost의 cat_features 파라미터를 활용해 범주형 변수 인코딩을 최적화하였고,
-Optuna를 활용해 하이퍼파라미터 튜닝을 자동화하였습니다.
+2. CatBoost의 cat_features 파라미터를 활용해 범주형 변수 인코딩을 최적화하였고, Optuna를 활용해 하이퍼파라미터 튜닝을 자동화.
 
-F1-score를 최종 평가 지표로 설정하되, 불균형 데이터 특성을 고려해 Accuracy, Precision, Recall도 함께 검토하며 모델을 평가했습니다.
+3. F1-score를 최종 평가 지표로 설정하되, 불균형 데이터 특성을 고려해 Accuracy, Precision, Recall도 함께 검토하며 모델을 평가.
 
-클래스 간 불균형을 보완하기 위해 class_weights 조정을 통해 모델의 민감도를 향상시켰습니다.
+4. 클래스 간 불균형을 보완하기 위해 class_weights 조정을 통해 모델의 민감도를 향상.
 
-다양한 seed에서의 성능 안정성을 확보하기 위해 train-validation split seed를 바꿔가며 실험했고,
-K-Fold Cross Validation을 통해 Robust한 모델 성능을 확인했습니다.
+5. 다양한 seed에서의 성능 안정성을 확보하기 위해 train-validation split seed를 바꿔가며 실험했고, K-Fold Cross Validation을 통해 Robust한 모델 성능을 확인
 
-최종적으로 6개의 CatBoost 모델을 Soft Voting 방식으로 앙상블하여,
-과적합을 방지하면서도 예측 성능이 안정적인 최종 모델을 완성하였습니다.
+6. 최종적으로 6개의 CatBoost 모델을 Soft Voting 방식으로 앙상블하여, 과적합을 방지하면서도 예측 성능이 안정적인 최종 모델을 완성
 
 ## ⚙️ **구현 과정**
