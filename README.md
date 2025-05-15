@@ -31,14 +31,14 @@
 
 - **추가로 시도한 알고리즘 :** 다양한 모델 간 성능 비교를 위해 ExtraTrees, XGBoost, SVM, Penalized Logistic Regression 등도 비교
 
-사용한 기술 및 라이브러리:
+- **사용한 기술 및 라이브러리 :**
 
-**프로그래밍 언어 :** <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
+  - **프로그래밍 언어 :** <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
 
-데이터 처리 및 분석: ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white), ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+  - **데이터 처리 및 분석 :** ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white), ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
-머신러닝 모델링: ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white), ![XGBoost](https://img.shields.io/badge/XGBoost-0072C6?style=flat&logo=xgboost&logoColor=white), ![CatBoost](https://img.shields.io/badge/CatBoost-EEB211?style=flat)
+  - **머신러닝 모델링 :** ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white), ![XGBoost](https://img.shields.io/badge/XGBoost-0072C6?style=flat&logo=xgboost&logoColor=white), ![CatBoost](https://img.shields.io/badge/CatBoost-EEB211?style=flat)
 
-모델 평가 지표: F1-score (불균형 데이터 대응을 위한 주요 지표로 활용)
+  - **모델 평가 지표 :** F1-score (불균형 데이터 대응을 위한 주요 지표로 활용)
 
 ## ⚙️ **구현 과정**
