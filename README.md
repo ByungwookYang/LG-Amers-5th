@@ -73,5 +73,9 @@
 | (Online) CatBoost Ensemble Model | 0.2377 | 0.2609  |
 | (Offline) CatBoost Ensemble Model| 0.2847 | 0.2972  |
 
+---
 
 ## 💡 **분석 의의**
+- 데이터가 밀리는 등 실제 현업에서 사용되는 데이터에 발생할 수 있는 문제점을 경험하고 이를 해결
+- 불균형이 심한 데이터를 핸들링
+- 과적합을 막고 robust한 모델을 구축
