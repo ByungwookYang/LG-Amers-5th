@@ -64,4 +64,14 @@
 
 6. 최종적으로 6개의 CatBoost 모델을 Soft Voting 방식으로 앙상블하여, 과적합을 방지하면서도 예측 성능이 안정적인 최종 모델을 완성
 
+---
+
+### 📈 최종 모델 성능 (F1-score)
+
+| 모델                             | Public | Private |
+|----------------------------------|--------|---------|
+| (Online) CatBoost Ensemble Model | 0.2377 | 0.2609  |
+| (Offline) CatBoost Ensemble Model| 0.2847 | 0.2972  |
+
+
 ## ⚙️ **구현 과정**
