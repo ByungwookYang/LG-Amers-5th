@@ -26,4 +26,19 @@
   - 심각하게 불균형한 타깃 클래스 문제를 해결하기 위한 불균형 처리 전략 적용 필요
 
 ---
+## ✅ **기법 및 기술 스택 요약**
+- **사용한 주요 기법 :** 최종 모델은 6개의 CatBoost 모델을 Soft Voting 방식으로 앙상블
+
+- **추가로 시도한 알고리즘 :** 다양한 모델 간 성능 비교를 위해 ExtraTrees, XGBoost, SVM, Penalized Logistic Regression 등도 비교
+
+사용한 기술 및 라이브러리:
+
+**프로그래밍 언어 :** <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
+
+데이터 처리 및 분석: pandas, numpy
+
+머신러닝 모델링: scikit-learn, XGBoost, CatBoost
+
+모델 평가 지표: F1-score (불균형 데이터 대응을 위한 주요 지표로 활용)
+
 ## ⚙️ **구현 과정**
