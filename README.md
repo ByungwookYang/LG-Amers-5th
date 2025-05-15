@@ -60,7 +60,7 @@
 
 4. 클래스 간 불균형을 보완하기 위해 class_weights 조정을 통해 모델의 민감도를 향상
 
-5. 다양한 seed에서의 성능 안정성을 확보하기 위해 train-validation split seed를 바꿔가며 실험했고, K-Fold Cross Validation을 통해 Robust한 모델 성능을 확인
+5. 다양한 seed에서의 성능 안정성을 확보를 위해 train-validation split seed를 바꿔가며 실험, K-Fold Cross Validation을 통해 Robust한 모델 성능을 확인
 
 6. 최종적으로 6개의 CatBoost 모델을 Soft Voting 방식으로 앙상블하여, 과적합을 방지하면서도 예측 성능이 안정적인 최종 모델을 완성
 
@@ -74,4 +74,4 @@
 | (Offline) CatBoost Ensemble Model| 0.2847 | 0.2972  |
 
 
-## ⚙️ **구현 과정**
+## ⚙💡 ** 분석 의의**
